@@ -8,3 +8,4 @@ sql_load/csv_files/company_dim.csv
 sql_load/csv_files/job_postings_fact.csv
 sql_load/csv_files/skills_job_dim.csv
 sql_load/csv_files/skills_dim.csv
+project_sql/asd.json
