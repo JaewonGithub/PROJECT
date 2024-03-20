@@ -22,7 +22,7 @@ To thoroughly explore the Data Scientist jobs in the job market, I utilized seve
 - **Git & GitHub:** Critical for version control and sharing my SQL scripts and analyses, facilitating project tracking.
 
 # Analysis
-### Each query for this project aimed at investigating specific aspects of the Data Scientist job market. <br>Here’s how I approached each question:
+ **Each query for this project aimed at investigating specific aspects of the Data Scientist job market. Here’s how I approached each question:**
 <br>
 
 ### 1. Top Paid Data Scientist Jobs
