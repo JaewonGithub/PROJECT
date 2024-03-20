@@ -4,3 +4,7 @@ all_folders/csv_files/job_postings_fact.csv
 all_folders/csv_files/company_dim.csv
 all_folders/__MACOSX/csv_files/._.DS_Store
 all_folders/csv_files/.DS_Store
+sql_load/csv_files/company_dim.csv
+sql_load/csv_files/job_postings_fact.csv
+sql_load/csv_files/skills_job_dim.csv
+sql_load/csv_files/skills_dim.csv
