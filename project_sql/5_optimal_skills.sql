@@ -25,15 +25,15 @@ WITH optimal_skills AS (
 )
 SELECT *,
     CASE 
-        WHEN demand_count > 300 AND avg_salary > 150000 THEN 'Very Optimal'
-        WHEN demand_count > 300 AND avg_salary > 100000 THEN 'Optimal'
-        ELSE 'Not Optimal'
-    END AS Excellence
+        WHEN demand_count > 1000 AND avg_salary > 140000 THEN 'Tier 1'
+        WHEN demand_count > 500 AND avg_salary > 140000 THEN 'Tier 2'
+        ELSE 'Tier 3'
+    END AS ratings
 FROM 
     optimal_skills
 ORDER BY 
-    avg_salary DESC , demand_count DESC 
-LIMIT 25
+    demand_count DESC , avg_salary DESC
+LIMIT 20
 
 
 
